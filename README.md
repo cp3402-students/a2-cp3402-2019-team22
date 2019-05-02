@@ -1,4 +1,7 @@
 ##  The Coffee Can Cafe Theme Repository
+**This repository contains the contents of the wp-content folder**
+
+
 **Production server (live site):** ???
 **Staging server:** ???
 ## Contributors
