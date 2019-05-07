@@ -2,8 +2,8 @@
 **This repository contains the contents of the wp-content folder**
 
 
-**Production server (live site):** ???
-**Staging server:** ???
+**Production server (live site):** [107.20.63.102](http://107.20.63.102/)
+**Staging server:** [34.229.102.181](http://34.229.102.181/)
 ## Contributors
  1. Matthew Spina
  2. Travis Wilson(1) 
@@ -64,7 +64,9 @@ VVV is used for our local development environment. VVV consists of a Linux (Ubun
 *Run:* `vagrant up`
 
 ## How to contribute
-???
+??? - Git workflow instructions here:
+- Cloning the git repository
+- Collaboration instructions (e.g. use of branches, when/what/how to commit, dealing with merge conflicts)
 ## Deployment instructions
  1. SSH into VVV installation
  2. Use wordmove to push and pull WordPress files to and from local dev environment and remote servers
