@@ -49,6 +49,39 @@ staging:
     - movefile.yml
     - wp-config.php
     - wp-content/*.sql
+    
+production:
+  # add your AWS IP or DNS or Dynamic DNS name (however you access your site) below
+  vhost: "http://107.20.63.102"
+  wordpress_path: "/opt/bitnami/apps/wordpress/htdocs" # use an absolute path here
+
+  database:
+    # the following values are the same as the defaults in config.sh, so change them here if you changed them there
+    name: "bitnami_wordpress"
+    user: "bn_wordpress"
+    password: "d3ea95085f"
+    host: "localhost"
+    port: 3306
+
+  ssh:
+    # add your AWS IP or DNS below (same as above but with NO http://)
+    # you will notice there's no "password". You must first setup passwordless SSH access.
+    host: "107.20.63.102"
+    user: "bitnami"
+    #rsync_options: "--chmod=ugo=rwX" # Additional rsync options to preserve permissions (ignore any errors about this)
+    rsync_options: "--chmod=755"
+
+  exclude:
+    - .git/
+    - .gitignore
+    - .sass-cache/
+    - node_modules/
+    - bin/
+    - tmp/*
+    - Gemfile*
+    - movefile.yml
+    - wp-config.php
+    - wp-content/*.sql
 
 # staging: # multiple environments can be specified; copy the values from production and adjust as needed
 #   [...]
