@@ -8,13 +8,13 @@ global:
 
 local:
   # put your local development site URL below, with NO trailing /
-  vhost: "http://vccw.test"
-  wordpress_path: "/vagrant/wordpress" # use an absolute path here
+  vhost: "http://192.168.33.10"
+  wordpress_path: "/var/www/public" # use an absolute path here
 
   database:
-    name: "wordpress"
-    user: "wordpress"
-    password: "wordpress"
+    name: "scotchbox"
+    user: "root"
+    password: "root"
     host: "localhost"
 
 staging:
