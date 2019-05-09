@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Twenty Nineteen Child
+ Theme URI:    http://192.168.33.10/wp-content/themes
+ Description:  Twenty Nineteen Child Theme
+ Author:       Matthew Spina
+ Author URI:   http://192.168.33.10/
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-child
+*/
+
+.site-header {
+    padding: 1em;
+    background: #0088ff;
+}
