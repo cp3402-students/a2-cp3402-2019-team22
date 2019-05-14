@@ -36,7 +36,8 @@ staging:
     host: "34.229.102.181"
     user: "bitnami"
     #rsync_options: "--chmod=ugo=rwX" # Additional rsync options to preserve permissions (ignore any errors about this)
-    rsync_options: "--chmod=755"
+    #rsync_options: "--chmod=755"
+    rsync_options: "--chmod=777"
 
   exclude:
     - .git/
@@ -69,7 +70,8 @@ production:
     host: "107.20.63.102"
     user: "bitnami"
     #rsync_options: "--chmod=ugo=rwX" # Additional rsync options to preserve permissions (ignore any errors about this)
-    rsync_options: "--chmod=755"
+    #rsync_options: "--chmod=755"
+    rsync_options: "--chmod=777"
 
   exclude:
     - .git/

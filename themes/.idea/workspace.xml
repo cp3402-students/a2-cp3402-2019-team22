@@ -97,7 +97,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1940" />
@@ -164,12 +164,12 @@
       <workItem from="1557720100921" duration="45000" />
       <workItem from="1557720557680" duration="20000" />
       <workItem from="1557721151730" duration="613000" />
-      <workItem from="1557816128742" duration="1296000" />
+      <workItem from="1557816128742" duration="1543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7342000" />
+    <option name="totallyTimeSpent" value="7589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
