@@ -14,7 +14,7 @@ $site-dark: #252420;
 $site-offwhite: #ffffcf;
 
 body{
-  background: $site-dark !important;
+  background: #FFF !important;
   color: $site-offwhite;
 }
 
@@ -32,3 +32,12 @@ body{
 }
 
 //---------------------------------------End hard-coded styles-----------------------------------------
+
+//Site page
+.site{
+  //Restrict width to 1000px to create a paged look
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $site-dark;
+}

@@ -14108,7 +14108,7 @@ figure.woocommerce-product-gallery__wrapper {
 i.e we should be able to change things like colours from withing the WordPress theme customiser
  If we have time we should look into this*/
 body {
-  background: #252420 !important;
+  background: #FFF !important;
   color: #ffffcf;
 }
 
@@ -14139,6 +14139,13 @@ body {
 .wpcf7 select,
 .wpcf7 textarea {
   background-color: #3a3a3a;
+}
+
+.site {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #252420;
 }
 
 /*
