@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3791071-18b4-4acd-8387-46d3cd1aac5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/themes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/themes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twentynineteen-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c3791071-18b4-4acd-8387-46d3cd1aac5e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,12 +162,12 @@
       <workItem from="1557720100921" duration="45000" />
       <workItem from="1557720557680" duration="20000" />
       <workItem from="1557721151730" duration="613000" />
-      <workItem from="1557816128742" duration="695000" />
+      <workItem from="1557816128742" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6741000" />
+    <option name="totallyTimeSpent" value="7139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
