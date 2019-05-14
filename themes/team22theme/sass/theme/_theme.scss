@@ -1,3 +1,4 @@
+@import "mixins";
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
 /* These are hard-coded styles that ideally shouldn't be hard-coded.
@@ -14,8 +15,18 @@ $site-dark: #252420;
 $site-offwhite: #ffffcf;
 
 body{
-  background: #FFF !important;
+  background: $site-offwhite !important;
   color: $site-offwhite;
+}
+
+//Site page
+.site{
+  //Restrict width to 1000px to create a paged look
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $site-dark;
+  @include boxShadow(0px,0px,10px, 0px, $site-dark);
 }
 
 .navbar{
@@ -32,12 +43,3 @@ body{
 }
 
 //---------------------------------------End hard-coded styles-----------------------------------------
-
-//Site page
-.site{
-  //Restrict width to 1000px to create a paged look
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: $site-dark;
-}

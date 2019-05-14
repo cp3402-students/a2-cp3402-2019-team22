@@ -1,0 +1,5 @@
+@mixin boxShadow($hozLenth,$vertLength,$blurRadius,$spreadRadius,$colour){
+  -webkit-box-shadow: $hozLenth $vertLength $blurRadius $spreadRadius $colour;
+  -moz-box-shadow: $hozLenth $vertLength $blurRadius $spreadRadius $colour;
+  box-shadow: $hozLenth $vertLength $blurRadius $spreadRadius $colour;
+}
