@@ -14129,6 +14129,9 @@ body {
   color: #8f7113 !important;
   font-family: "Cooper Black", sans-serif;
 }
+.navbar a:hover {
+  color: #552233 !important;
+}
 
 .form-control, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type=text],
 .wpcf7 input[type=search],

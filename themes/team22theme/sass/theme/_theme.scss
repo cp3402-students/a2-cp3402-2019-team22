@@ -14,6 +14,8 @@ $site-brown: #5a4706;
 $site-dark: #252420;
 $site-offwhite: #ffffcf;
 
+$site-hovertest: #552233;
+
 body{
   background: $site-offwhite !important;
   color: $site-offwhite;
@@ -35,7 +37,13 @@ body{
     color: $site-lightbrown !important;
     font-family: "Cooper Black", sans-serif;
   }
+
+  a:hover{
+    color: $site-hovertest !important;
+    
+  }
 }
+
 
 //Search box
 .form-control{
