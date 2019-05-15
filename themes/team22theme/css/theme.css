@@ -14112,6 +14112,12 @@ body {
   color: #ffffcf;
 }
 
+.wp-block-cover {
+  width: 1000px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .site {
   max-width: 1000px;
   margin-left: auto;
@@ -14128,6 +14134,14 @@ body {
 .navbar a {
   color: #8f7113 !important;
   font-family: "Cooper Black", sans-serif;
+}
+.navbar a:hover {
+  color: #552233 !important;
+}
+
+img {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .form-control, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type=text],

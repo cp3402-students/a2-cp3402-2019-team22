@@ -14,9 +14,18 @@ $site-brown: #5a4706;
 $site-dark: #252420;
 $site-offwhite: #ffffcf;
 
+$site-hovertest: #552233;
+
 body{
   background: $site-offwhite !important;
   color: $site-offwhite;
+
+}
+
+.wp-block-cover {
+  width: 1000px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 //Site page
@@ -35,7 +44,20 @@ body{
     color: $site-lightbrown !important;
     font-family: "Cooper Black", sans-serif;
   }
+
+  a:hover{
+    color: $site-hovertest !important;
+    
+  }
 }
+
+img {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
 
 //Search box
 .form-control{
