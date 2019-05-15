@@ -19,8 +19,13 @@ $site-hovertest: #552233;
 body{
   background: $site-offwhite !important;
   color: $site-offwhite;
+
 }
 
+.wp-block-cover {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 
 //Site page
 .site{
@@ -49,6 +54,8 @@ img {
   margin-right: -15px;
   margin-left: -15px;
 }
+
+
 
 
 //Search box
