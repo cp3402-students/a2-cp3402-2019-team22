@@ -21,6 +21,7 @@ body{
   color: $site-offwhite;
 }
 
+
 //Site page
 .site{
   //Restrict width to 1000px to create a paged look
@@ -42,6 +43,11 @@ body{
     color: $site-hovertest !important;
     
   }
+}
+
+img {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 
