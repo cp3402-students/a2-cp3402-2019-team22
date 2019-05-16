@@ -14212,6 +14212,12 @@ img {
   margin-left: -15px;
 }
 
+img.img-fluid {
+  width: 150px;
+  -webkit-filter: drop-shadow(0px 10px 10px #000);
+  filter: drop-shadow(0px 10px 10px #000);
+}
+
 .form-control, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type=text],
 .wpcf7 input[type=search],
 .wpcf7 input[type=url],
