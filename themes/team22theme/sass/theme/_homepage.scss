@@ -1,0 +1,9 @@
+@import "variables";
+div#homepage-page-wrapper .wp-block-cover__inner-container{
+  &>.has-large-font-size{
+    background-color: hsla(0, 0%, 100%, 0.2);
+  }
+  &>p:not(.has-large-font-size){
+    color: $site-hotpink;
+  }
+}
