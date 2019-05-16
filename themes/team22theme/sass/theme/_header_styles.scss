@@ -1,3 +1,4 @@
+@import "variables";
 //MENU BAR
 #main-menu{
   background-color: black;
@@ -23,7 +24,7 @@
 #navbarNavDropdown ul{
   li::after{
     content: "|";
-    color: yellow;
+    color: $site-yellow;
   }
   li:last-child::after{
     content: "";

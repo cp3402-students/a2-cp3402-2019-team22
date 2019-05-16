@@ -5,17 +5,7 @@
 /* These are hard-coded styles that ideally shouldn't be hard-coded.
 i.e we should be able to change things like colours from withing the WordPress theme customiser
  If we have time we should look into this*/
-$site-yellow: #f8f506;
-$site-palepink:#fec6e1;
-$site-red: #e72103;
-$site-pink: #fc98c6;
-$site-hotpink: #fe50a1;
-$site-lightbrown: #8f7113;
-$site-brown: #5a4706;
-$site-dark: #252420;
-$site-offwhite: #ffffcf;
-
-$site-hovertest: #552233;
+@import "variables";
 
 body{
   background: $site-offwhite !important;

@@ -14123,7 +14123,7 @@ figure.woocommerce-product-gallery__wrapper {
 
 #navbarNavDropdown ul li::after {
   content: "|";
-  color: yellow;
+  color: #f8f506;
 }
 #navbarNavDropdown ul li:last-child::after {
   content: "";
