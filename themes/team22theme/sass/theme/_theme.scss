@@ -11,7 +11,10 @@ i.e we should be able to change things like colours from withing the WordPress t
 body{
   background: $site-offwhite !important;
   color: $site-offwhite;
+}
 
+#main-menu {
+  box-shadow: 1px 5px 6px 1px black;
 }
 
 .wp-block-cover {
@@ -43,7 +46,12 @@ body{
   }
   a.nav-link{
     color: $site-yellow !important;
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
   }
+  a.nav-link:hover{
+    color: $site-dark !important;
+    background-color: $site-yellow !important;
+   }
 }
 
 img {
