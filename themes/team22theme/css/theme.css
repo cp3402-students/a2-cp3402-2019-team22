@@ -14108,7 +14108,7 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: black;
   position: relative;
   right: 0px;
-  top: 42px;
+  top: 53px;
   height: 40px;
 }
 #main-menu li a {
@@ -14127,6 +14127,17 @@ figure.woocommerce-product-gallery__wrapper {
 }
 #navbarNavDropdown ul li:last-child::after {
   content: "";
+}
+
+img.img-fluid {
+  width: 150px;
+  position: absolute;
+  top: 11px;
+  left: 30px;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
+  height: 110px;
 }
 
 div#homepage-page-wrapper .wp-block-cover__inner-container > .has-large-font-size {

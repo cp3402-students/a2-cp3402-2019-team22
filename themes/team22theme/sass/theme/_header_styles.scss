@@ -4,7 +4,7 @@
   background-color: black;
   position: relative;
   right: 0px;
-  top: 42px;
+  top: 53px;
   height: 40px;
   li{
     a{
@@ -29,4 +29,14 @@
   li:last-child::after{
     content: "";
   }
+}
+
+img.img-fluid {
+  width: 150px;
+  position: absolute;
+  top: 11px;
+  left: 30px;
+}
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
+  height: 110px;
 }

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3791071-18b4-4acd-8387-46d3cd1aac5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/team22theme/page-templates/homepage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/team22theme/sass/theme/_homepage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team22theme/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team22theme/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/css/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploads/2019/05/head-1024x413.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploads/2019/05/head-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/../uploads/2019/05/head-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploads/2019/05/head-300x121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploads/2019/05/head-768x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploads/2019/05/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/../uploads/2019/05/head.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +36,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twentynineteen-child/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="561">
+              <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -99,7 +93,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_homepage.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -131,10 +125,11 @@
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_mixins.scss" />
         <option value="$PROJECT_DIR$/team22theme/header.php" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_variables.scss" />
-        <option value="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" />
         <option value="$PROJECT_DIR$/team22theme/page-templates/homepage.php" />
-        <option value="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_homepage.scss" />
+        <option value="$PROJECT_DIR$/team22theme/sass/theme/_header.scss" />
+        <option value="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" />
+        <option value="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" />
       </list>
     </option>
   </component>
@@ -227,12 +222,12 @@
       <workItem from="1557720100921" duration="45000" />
       <workItem from="1557720557680" duration="20000" />
       <workItem from="1557721151730" duration="613000" />
-      <workItem from="1557816128742" duration="11675000" />
+      <workItem from="1557816128742" duration="12844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17721000" />
+    <option name="totallyTimeSpent" value="18890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
@@ -351,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/page-templates/fullwidthpage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -378,13 +366,6 @@
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme_variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -392,10 +373,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>
