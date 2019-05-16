@@ -14185,14 +14185,17 @@ body {
 }
 
 .navbar {
-  background-color: #5a4706 !important;
+  background-color: #f8f506 !important;
 }
 .navbar a {
-  color: #8f7113 !important;
+  color: #252420 !important;
   font-family: "Cooper Black", sans-serif;
 }
 .navbar a:hover {
   color: #552233 !important;
+}
+.navbar a.nav-link {
+  color: #f8f506 !important;
 }
 
 img {

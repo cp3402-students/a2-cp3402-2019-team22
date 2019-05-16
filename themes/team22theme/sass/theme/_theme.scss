@@ -31,15 +31,18 @@ body{
 }
 
 .navbar{
-  background-color: $site-brown !important;
+  background-color: $site-yellow !important;
   a {
-    color: $site-lightbrown !important;
+    color: $site-dark !important;
     font-family: "Cooper Black", sans-serif;
   }
 
   a:hover{
     color: $site-hovertest !important;
     
+  }
+  a.nav-link{
+    color: $site-yellow !important;
   }
 }
 
