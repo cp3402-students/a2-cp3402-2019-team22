@@ -14140,6 +14140,10 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
   height: 110px;
 }
 
+a#includeslogo {
+  padding-left: 150px;
+}
+
 div#homepage-page-wrapper .wp-block-cover__inner-container > .has-large-font-size {
   background-color: rgba(255, 255, 255, 0.2);
 }

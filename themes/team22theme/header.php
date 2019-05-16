@@ -37,21 +37,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="container">
 		<?php endif; ?>
 
+                <!-- Heylon White: Add html tags to allow for positioning of individual site title words in CSS -->
+                <?php
+                $blogInfoText = get_bloginfo( 'name' );
+                $blogInfoSplitByWord = explode(" ", $blogInfoText);
+
+                $BlogInfoSeparatedByWord = "";
+                $count = 0;
+                foreach ($blogInfoSplitByWord as $word){
+                    $BlogInfoSeparatedByWord .= "<span id='titleword$count'>$word</span> ";
+                    $count++;
+                }
+                ?>
 					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
 
-                        <!-- Heylon White: Add html tags to allow for positioning of individual site title words in CSS -->
-                        <?php
-                            $blogInfoText = get_bloginfo( 'name' );
-                            $blogInfoSplitByWord = explode(" ", $blogInfoText);
 
-                            $BlogInfoSeparatedByWord = "";
-                            $count = 0;
-                            foreach ($blogInfoSplitByWord as $word){
-                                $BlogInfoSeparatedByWord .= "<span id='titleword$count'>$word</span> ";
-                                $count++;
-                            }
-                        ?>
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 
@@ -65,8 +66,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 					<?php } else {
-						the_custom_logo();
-					} ?><!-- end custom logo -->
+						the_custom_logo(); ?>
+
+                        <?php if ( is_front_page() && is_home() ) : ?>
+
+                            <h1 class="navbar-brand mb-0" id="includeslogo"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php echo $BlogInfoSeparatedByWord; ?></a></h1>
+
+                        <?php else : ?>
+
+                            <a class="navbar-brand" id="includeslogo" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php echo $BlogInfoSeparatedByWord; ?></a>
+
+                        <?php endif; ?>
+
+                    <?php } ?><!-- end custom logo -->
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
