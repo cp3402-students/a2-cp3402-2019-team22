@@ -40,13 +40,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
 
+                        <!-- Heylon White: Add html tags to allow for positioning of individual site title words in CSS -->
+                        <?php
+                            $blogInfoText = get_bloginfo( 'name' );
+                            $blogInfoSplitByWord = explode(" ", $blogInfoText);
+
+                            $BlogInfoSeparatedByWord = "";
+                            $count = 0;
+                            foreach ($blogInfoSplitByWord as $word){
+                                $BlogInfoSeparatedByWord .= "<span id='titleword$count'>$word</span> ";
+                                $count++;
+                            }
+                        ?>
+
 						<?php if ( is_front_page() && is_home() ) : ?>
 
-							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
+							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php echo $BlogInfoSeparatedByWord; ?></a></h1>
 
 						<?php else : ?>
 
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php echo $BlogInfoSeparatedByWord; ?></a>
 
 						<?php endif; ?>
 

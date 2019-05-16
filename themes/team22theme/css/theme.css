@@ -14169,7 +14169,13 @@ img {
   background-color: black;
   position: relative;
   right: 0px;
-  top: 30px;
+  top: 42px;
+}
+
+#titleword1 {
+  font-size: 2em;
+  /* text-align: unset; */
+  vertical-align: middle;
 }
 
 /*
