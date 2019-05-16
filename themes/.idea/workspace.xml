@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3791071-18b4-4acd-8387-46d3cd1aac5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team22theme/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team22theme/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/css/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team22theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -52,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="50" column="101" selection-start-line="50" selection-start-column="101" selection-end-line="50" selection-end-column="101" />
+            <state relative-caret-position="209">
+              <caret line="70" column="115" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="115" />
             </state>
           </provider>
         </entry>
@@ -88,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241026">
-              <caret line="14208" column="37" selection-start-line="14208" selection-start-column="37" selection-end-line="14208" selection-end-column="37" />
+            <state relative-caret-position="241315">
+              <caret line="14220" column="37" selection-start-line="14220" selection-start-column="37" selection-end-line="14220" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -101,6 +110,7 @@
       <find>site-palepink</find>
       <find>theme.min.css</find>
       <find>&lt;!-- Your site title as branding in the menu --&gt;</find>
+      <find>navbarNavDropdown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,6 +126,7 @@
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_mixins.scss" />
         <option value="$PROJECT_DIR$/team22theme/header.php" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" />
+        <option value="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" />
       </list>
     </option>
   </component>
@@ -202,12 +213,12 @@
       <workItem from="1557720100921" duration="45000" />
       <workItem from="1557720557680" duration="20000" />
       <workItem from="1557721151730" duration="613000" />
-      <workItem from="1557816128742" duration="6562000" />
+      <workItem from="1557816128742" duration="8036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12608000" />
+    <option name="totallyTimeSpent" value="14082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
@@ -220,14 +231,14 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.32953465" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4978678" weight="0.32953465" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32953465" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.32953465" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,8 +301,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241026">
-          <caret line="14208" column="37" selection-start-line="14208" selection-start-column="37" selection-end-line="14208" selection-end-column="37" />
+        <state relative-caret-position="241315">
+          <caret line="14220" column="37" selection-start-line="14220" selection-start-column="37" selection-end-line="14220" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="70" column="115" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -309,24 +341,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="50" column="101" selection-start-line="50" selection-start-column="101" selection-end-line="50" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="493">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>

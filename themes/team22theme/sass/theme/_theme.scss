@@ -1,4 +1,5 @@
 @import "mixins";
+@import "header_styles";
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
 /* These are hard-coded styles that ideally shouldn't be hard-coded.
@@ -65,18 +66,3 @@ img {
 }
 
 //---------------------------------------End hard-coded styles-----------------------------------------
-
-//MENU BAR
-#main-menu{
-  background-color: black;
-  position: relative;
-  right: 0px;
-  top: 42px;
-}
-//-----------------
-//TITLE TEXT
-#titleword1{
-  font-size: 2em;
-  /* text-align: unset; */
-  vertical-align: middle;
-}

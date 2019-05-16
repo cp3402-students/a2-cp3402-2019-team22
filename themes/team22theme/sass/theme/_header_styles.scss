@@ -1,0 +1,31 @@
+//MENU BAR
+#main-menu{
+  background-color: black;
+  position: relative;
+  right: 0px;
+  top: 42px;
+  height: 40px;
+  li{
+    a{
+      display: inline-table;
+
+    }
+  }
+}
+//-----------------
+//TITLE TEXT
+#titleword1{
+  font-size: 2em;
+  /* text-align: unset; */
+  vertical-align: middle;
+}
+
+#navbarNavDropdown ul{
+  li::after{
+    content: "|";
+    color: yellow;
+  }
+  li:last-child::after{
+    content: "";
+  }
+}

@@ -14104,6 +14104,31 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
+#main-menu {
+  background-color: black;
+  position: relative;
+  right: 0px;
+  top: 42px;
+  height: 40px;
+}
+#main-menu li a {
+  display: inline-table;
+}
+
+#titleword1 {
+  font-size: 2em;
+  /* text-align: unset; */
+  vertical-align: middle;
+}
+
+#navbarNavDropdown ul li::after {
+  content: "|";
+  color: yellow;
+}
+#navbarNavDropdown ul li:last-child::after {
+  content: "";
+}
+
 /* These are hard-coded styles that ideally shouldn't be hard-coded.
 i.e we should be able to change things like colours from withing the WordPress theme customiser
  If we have time we should look into this*/
@@ -14163,19 +14188,6 @@ img {
 .wpcf7 select,
 .wpcf7 textarea {
   background-color: #3a3a3a;
-}
-
-#main-menu {
-  background-color: black;
-  position: relative;
-  right: 0px;
-  top: 42px;
-}
-
-#titleword1 {
-  font-size: 2em;
-  /* text-align: unset; */
-  vertical-align: middle;
 }
 
 /*
