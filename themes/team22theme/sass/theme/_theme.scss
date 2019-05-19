@@ -23,13 +23,17 @@ body{
   margin-right: -15px;
 }
 
+.entry-content {
+  color: $site-dark;
+}
+
 //Site page
 .site{
   //Restrict width to 1000px to create a paged look
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-color: $site-dark;
+  background-color: $site-white;
   @include boxShadow(0px,0px,10px, 0px, $site-dark);
 }
 

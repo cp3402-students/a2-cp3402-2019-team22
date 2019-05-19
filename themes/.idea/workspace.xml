@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+            <state relative-caret-position="292">
+              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="281">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -53,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/src/sass/bootstrap4/mixins/_breakpoints.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
+            <state relative-caret-position="841">
               <caret line="51" column="55" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="65" />
             </state>
           </provider>
@@ -74,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/src/sass/bootstrap4/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3230">
+            <state relative-caret-position="841">
               <caret line="190" column="17" selection-start-line="190" selection-end-line="190" selection-end-column="17" />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team22theme/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
+            <state relative-caret-position="1360">
               <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
             </state>
           </provider>
@@ -115,6 +115,7 @@
       <find>&lt;!-- Your site title as branding in the menu --&gt;</find>
       <find>navbarNavDropdown</find>
       <find>992</find>
+      <find>site</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,12 +129,12 @@
         <option value="$PROJECT_DIR$/twentynineteen/style.css" />
         <option value="$PROJECT_DIR$/twentynineteen-child/style.css" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_mixins.scss" />
-        <option value="$PROJECT_DIR$/team22theme/sass/theme/_variables.scss" />
         <option value="$PROJECT_DIR$/team22theme/page-templates/homepage.php" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_homepage.scss" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_header.scss" />
         <option value="$PROJECT_DIR$/team22theme/header.php" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss" />
+        <option value="$PROJECT_DIR$/team22theme/sass/theme/_variables.scss" />
         <option value="$PROJECT_DIR$/team22theme/sass/theme/_theme.scss" />
       </list>
     </option>
@@ -141,11 +142,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1380" />
-    <option name="height" value="752" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,12 +170,6 @@
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="team22theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="team22theme" type="462c0819:PsiDirectoryNode" />
-              <item name="page-templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +238,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Programs/dart-sass-1.20.1-windows-x64/dart-sass/sass.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../dart-sass-1.20.1/dart-sass/dart-sass.bat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -279,24 +273,25 @@
       <workItem from="1557721151730" duration="613000" />
       <workItem from="1557816128742" duration="16606000" />
       <workItem from="1558002191830" duration="2280000" />
+      <workItem from="1558265594501" duration="2505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24932000" />
+    <option name="totallyTimeSpent" value="27437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29333332" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49946696" weight="0.32953465" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49520257" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49520257" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -425,13 +420,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header.scss" />
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_homepage.scss" />
-    <entry file="file://$PROJECT_DIR$/team22theme/src/sass/bootstrap4/mixins/_breakpoints.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="55" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67405">
@@ -442,16 +430,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/src/sass/bootstrap4/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="190" column="17" selection-start-line="190" selection-end-line="190" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
+        <state relative-caret-position="1360">
           <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
         </state>
       </provider>
@@ -466,27 +447,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme_variables.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/team22theme/src/sass/bootstrap4/mixins/_breakpoints.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="841">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/src/sass/bootstrap4/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="190" column="17" selection-start-line="190" selection-end-line="190" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_header_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="281">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team22theme/sass/theme/_theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="292">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -14178,11 +14178,15 @@ body {
   margin-right: -15px;
 }
 
+.entry-content {
+  color: #252420;
+}
+
 .site {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #252420;
+  background-color: #fff;
   -webkit-box-shadow: 0px 0px 10px 0px #252420;
   -moz-box-shadow: 0px 0px 10px 0px #252420;
   box-shadow: 0px 0px 10px 0px #252420;
