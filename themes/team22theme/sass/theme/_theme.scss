@@ -24,7 +24,7 @@ body{
 }
 
 .entry-content, p, h2 {
-  color: $site-dark;
+  color: $site-dark !important;
 }
 
 //Site page
@@ -44,10 +44,6 @@ body{
     font-family: "Cooper Black", sans-serif;
   }
 
-  a:hover{
-    color: $site-hovertest !important;
-    
-  }
   a.nav-link{
     color: $site-yellow !important;
     font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;

@@ -14179,7 +14179,7 @@ body {
 }
 
 .entry-content, p, h2 {
-  color: #252420;
+  color: #252420 !important;
 }
 
 .site {
@@ -14198,9 +14198,6 @@ body {
 .navbar a {
   color: #252420 !important;
   font-family: "Cooper Black", sans-serif;
-}
-.navbar a:hover {
-  color: #552233 !important;
 }
 .navbar a.nav-link {
   color: #f8f506 !important;
