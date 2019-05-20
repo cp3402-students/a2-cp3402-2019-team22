@@ -14277,6 +14277,10 @@ img.img-fluid {
   color: black;
 }
 
+.wp-block-cover.has-background-dim {
+  margin-bottom: 0;
+}
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
