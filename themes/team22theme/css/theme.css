@@ -14272,6 +14272,11 @@ img.img-fluid {
   padding-top: 20px;
 }
 
+.nf-form-wrap.ninja-forms-form-wrap {
+  padding-top: 70px;
+  color: black;
+}
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
