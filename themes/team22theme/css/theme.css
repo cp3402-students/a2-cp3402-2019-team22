@@ -14210,6 +14210,7 @@ img.img-fluid {
 
 .navbar {
   background-color: #f8f506 !important;
+  z-index: 9999999;
 }
 .navbar a {
   color: #252420 !important;
@@ -14265,6 +14266,10 @@ img.img-fluid {
   font-size: 12px;
   text-align: center;
   color: black;
+}
+
+.site-info {
+  padding-top: 20px;
 }
 
 /*

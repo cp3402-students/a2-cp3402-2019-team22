@@ -55,6 +55,7 @@ img.img-fluid {
 
 .navbar{
   background-color: $site-yellow !important;
+  z-index: 9999999;
   a {
     color: $site-dark !important;
     font-family: "Cooper Black", sans-serif;
@@ -97,6 +98,10 @@ img.img-fluid {
   text-align: center;
   color: black;
 
+}
+
+.site-info{
+  padding-top: 20px;
 }
 
 
