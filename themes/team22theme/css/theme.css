@@ -14246,13 +14246,12 @@ img.img-fluid {
 
 #wrapper-footer {
   background-color: #f8f506 !important;
-  height: 8em;
+  height: 10em;
 }
 
 #colophon {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
-  padding-top: 7em;
   color: black;
 }
 
