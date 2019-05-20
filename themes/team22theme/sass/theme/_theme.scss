@@ -19,11 +19,12 @@ body{
 
 .wp-block-cover {
   width: 1000px;
+  visibility: hidden;
   margin-left: -15px;
   margin-right: -15px;
 }
 
-.entry-content, p, h2 {
+.entry-content > p, .entry-content > h2 {
   color: $site-dark !important;
 }
 
