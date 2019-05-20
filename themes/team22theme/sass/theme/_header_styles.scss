@@ -46,6 +46,10 @@ a#includeslogo {
   padding-left: 150px;
 }
 
+.current-menu-item {
+  background-color: $site-yellow;
+}
+
 //MENU BAR SMALLER SCREEN
 @media (max-width: map_get($grid-breakpoints,lg)){
   #main-menu{

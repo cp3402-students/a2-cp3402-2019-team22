@@ -14144,6 +14144,10 @@ a#includeslogo {
   padding-left: 150px;
 }
 
+.current-menu-item {
+  background-color: #f8f506;
+}
+
 @media (max-width: 992px) {
   #main-menu {
     height: auto;
