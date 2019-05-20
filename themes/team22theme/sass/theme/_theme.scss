@@ -27,6 +27,18 @@ body{
   visibility: hidden;
 }
 
+header.entry-header {
+  display: none;
+}
+
+.wrapper {
+  padding: 0px 0;
+}
+
+img.img-fluid {
+  z-index: 9999999;
+}
+
 .entry-content > p, .entry-content > h2 {
   color: $site-dark !important;
 }
@@ -43,6 +55,7 @@ body{
 
 .navbar{
   background-color: $site-yellow !important;
+  z-index: 9999999;
   a {
     color: $site-dark !important;
     font-family: "Cooper Black", sans-serif;
@@ -85,6 +98,10 @@ img.img-fluid {
   text-align: center;
   color: black;
 
+}
+
+.site-info{
+  padding-top: 20px;
 }
 
 
