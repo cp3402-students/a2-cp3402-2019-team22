@@ -6,4 +6,9 @@ div#homepage-page-wrapper .wp-block-cover__inner-container{
   &>p:not(.has-large-font-size){
     color: $site-hotpink;
   }
+
+
+}
+div#homepage-page-wrapper .entry-content {
+  padding-top: 0;
 }
