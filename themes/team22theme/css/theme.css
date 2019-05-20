@@ -14259,13 +14259,17 @@ img.img-fluid {
 
 #wrapper-footer {
   background-color: #f8f506 !important;
-  height: 10em;
+  height: 9em;
 }
 
 #colophon {
   font-size: 12px;
   text-align: center;
   color: black;
+}
+
+.wp-block-cover p {
+  font-family: Georgia, serif;
 }
 
 .site-info {
