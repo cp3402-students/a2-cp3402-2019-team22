@@ -53,23 +53,27 @@ img.img-fluid {
   @include boxShadow(0px,0px,10px, 0px, $site-dark);
 }
 
-.navbar{
-  background-color: $site-yellow !important;
-  z-index: 9999999;
-  a {
-    color: $site-dark !important;
-    font-family: "Cooper Black", sans-serif;
-  }
-
-  a.nav-link{
-    color: $site-yellow !important;
-    font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
-  }
-  a.nav-link:hover{
-    color: $site-dark !important;
-    background-color: $site-yellow !important;
-   }
+.navbar-brand{
+  font-family: "Cooper Black";
+  color: $site-dark !important;
 }
+
+.navbar-dark, .navbar-nav, .nav-link {
+  z-index: 9999 !important;
+  color: $site-yellow !important;
+  background-color: black;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+}
+.navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
+  color: black !important;
+  background-color: $site-yellow;
+}
+
+.current-menu-item > a {
+  color: black !important;
+  background-color: $site-yellow !important;
+}
+
 
 img {
   margin-right: -15px;
@@ -97,7 +101,6 @@ img.img-fluid {
   font-size: 12px;
   text-align: center;
   color: black;
-
 }
 
 .wp-block-cover p{
@@ -117,7 +120,11 @@ img.img-fluid {
   margin-bottom: 0;
 }
 
-.entry-content { 
+.entry-content {
   color: black;
+}
+
+.bg-primary {
+  background-color: $site-yellow !important;
 }
 //---------------------------------------End hard-coded styles-----------------------------------------
