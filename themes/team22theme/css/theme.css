@@ -14337,6 +14337,11 @@ img.img-fluid {
   margin-bottom: 0;
 }
 
+.has-large-font-size > a {
+  color: #fe50a1;
+  text-decoration: none;
+}
+
 .entry-content {
   color: black;
   padding-top: 70px;
