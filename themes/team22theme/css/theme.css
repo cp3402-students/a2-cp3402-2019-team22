@@ -14337,7 +14337,7 @@ img.img-fluid {
   margin-bottom: 0;
 }
 
-.has-large-font-size > a {
+.wp-block-cover__inner-container.has-large-font-size > a {
   color: #fe50a1;
   text-decoration: none;
 }
