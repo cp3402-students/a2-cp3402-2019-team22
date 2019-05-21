@@ -14144,6 +14144,11 @@ a#includeslogo {
   padding-left: 150px;
 }
 
+@media only screen and (max-width: 545px) {
+  a#includeslogo {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
   #main-menu {
     height: auto;
@@ -14152,12 +14157,22 @@ a#includeslogo {
   #navbarNavDropdown ul li::after {
     content: none;
   }
+
+  a.nav-link {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 div#homepage-page-wrapper .wp-block-cover__inner-container > .has-large-font-size {
   background-color: rgba(255, 255, 255, 0.2);
 }
 div#homepage-page-wrapper .wp-block-cover__inner-container > p:not(.has-large-font-size) {
   color: #fe50a1;
+}
+
+div#homepage-page-wrapper .entry-content {
+  padding-top: 0;
 }
 
 /* These are hard-coded styles that ideally shouldn't be hard-coded.
@@ -14170,12 +14185,6 @@ body {
 
 #main-menu {
   box-shadow: 1px 5px 6px 1px black;
-}
-
-.wp-block-cover {
-  width: 1000px;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 
 .wp-block-separator {
@@ -14208,6 +14217,11 @@ img.img-fluid {
   box-shadow: 0px 0px 10px 0px #252420;
 }
 
+@media only screen and (max-width: 1000px) {
+  .site {
+    max-width: inherit;
+  }
+}
 .navbar-brand {
   font-family: "Cooper Std", sans-serif;
   color: #252420 !important;
@@ -14228,11 +14242,6 @@ img.img-fluid {
 .current-menu-item > a {
   color: black !important;
   background-color: #f8f506 !important;
-}
-
-img {
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 img.img-fluid {
@@ -14265,6 +14274,7 @@ img.img-fluid {
 #wrapper-footer {
   background-color: #f8f506 !important;
   height: 9em;
+  overflow: hidden;
 }
 
 #colophon {
@@ -14292,10 +14302,15 @@ img.img-fluid {
 
 .entry-content {
   color: black;
+  padding-top: 70px;
 }
 
 .bg-primary {
   background-color: #f8f506 !important;
+}
+
+div#primary {
+  padding: 0;
 }
 
 /*

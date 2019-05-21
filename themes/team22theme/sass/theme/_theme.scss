@@ -8,6 +8,7 @@ i.e we should be able to change things like colours from withing the WordPress t
  If we have time we should look into this*/
 @import "variables";
 
+
 body{
   background: $site-offwhite !important;
   color: $site-offwhite;
@@ -15,12 +16,6 @@ body{
 
 #main-menu {
   box-shadow: 1px 5px 6px 1px black;
-}
-
-.wp-block-cover {
-  width: 1000px;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 
 .wp-block-separator {
@@ -46,11 +41,17 @@ img.img-fluid {
 //Site page
 .site{
   //Restrict width to 1000px to create a paged look
-  max-width: 1000px;
+  max-width: $sitePageWidth;
   margin-left: auto;
   margin-right: auto;
   background-color: $site-white;
   @include boxShadow(0px,0px,10px, 0px, $site-dark);
+}
+
+@media only screen and (max-width: $sitePageWidth) {
+  .site{
+    max-width: inherit;
+  }
 }
 
 .navbar-brand{
@@ -75,11 +76,6 @@ img.img-fluid {
 }
 
 
-img {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 img.img-fluid {
   width: 150px;
   -webkit-filter: drop-shadow(0px 10px 10px #000);
@@ -94,7 +90,7 @@ img.img-fluid {
 #wrapper-footer{
   background-color: $site-yellow !important;
   height: 9em;
-
+  overflow: hidden;
 }
 
 #colophon{
@@ -122,9 +118,14 @@ img.img-fluid {
 
 .entry-content {
   color: black;
+  padding-top: 70px;
 }
 
 .bg-primary {
   background-color: $site-yellow !important;
+}
+
+div#primary {
+  padding: 0;
 }
 //---------------------------------------End hard-coded styles-----------------------------------------
