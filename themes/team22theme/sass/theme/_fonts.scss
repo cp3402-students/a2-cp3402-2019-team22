@@ -5,3 +5,9 @@ $font-folder: "../fonts/";
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Cooper Std Black';
+  src: url('#{$font-folder}Cooper Std Black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
