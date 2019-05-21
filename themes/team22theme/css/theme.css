@@ -14340,6 +14340,13 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#homepage-page-wrapper .entry-content {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .bg-primary {
