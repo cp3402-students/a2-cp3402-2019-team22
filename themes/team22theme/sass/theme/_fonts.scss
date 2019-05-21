@@ -1,0 +1,7 @@
+$font-folder: "../fonts/";
+@font-face {
+  font-family: 'Cooper Black';
+  src: url('#{$font-folder}COOPBL.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
