@@ -54,7 +54,7 @@ img.img-fluid {
 }
 
 .navbar-brand{
-  font-family: "Cooper Black";
+  font-family: $site-title-font;
   color: $site-dark !important;
 }
 
@@ -62,7 +62,7 @@ img.img-fluid {
   z-index: 9999 !important;
   color: $site-yellow !important;
   background-color: black;
-  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+  font-family: $site-navbar-font;
 }
 .navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
   color: black !important;
