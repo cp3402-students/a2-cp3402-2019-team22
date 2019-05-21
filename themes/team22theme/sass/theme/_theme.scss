@@ -8,6 +8,7 @@ i.e we should be able to change things like colours from withing the WordPress t
  If we have time we should look into this*/
 @import "variables";
 
+
 body{
   background: $site-offwhite !important;
   color: $site-offwhite;
@@ -15,12 +16,6 @@ body{
 
 #main-menu {
   box-shadow: 1px 5px 6px 1px black;
-}
-
-.wp-block-cover {
-  width: 1000px;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 
 .wp-block-separator {
@@ -46,35 +41,49 @@ img.img-fluid {
 //Site page
 .site{
   //Restrict width to 1000px to create a paged look
-  max-width: 1000px;
+  max-width: $sitePageWidth;
   margin-left: auto;
   margin-right: auto;
   background-color: $site-white;
   @include boxShadow(0px,0px,10px, 0px, $site-dark);
 }
 
+<<<<<<< HEAD
 .navbar{
   background-color: $site-yellow !important;
   z-index: 9999999;
   a {
     color: $site-dark !important;
     font-family: "Cooper Std", sans-serif;
+=======
+@media only screen and (max-width: $sitePageWidth) {
+  .site{
+    max-width: inherit;
+>>>>>>> refs/remotes/origin/master
   }
-
-  a.nav-link{
-    color: $site-yellow !important;
-    font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
-  }
-  a.nav-link:hover{
-    color: $site-dark !important;
-    background-color: $site-yellow !important;
-   }
 }
 
-img {
-  margin-right: -15px;
-  margin-left: -15px;
+.navbar-brand{
+  font-family: "Cooper Black";
+  color: $site-dark !important;
 }
+
+.navbar-dark, .navbar-nav, .nav-link {
+  z-index: 9999 !important;
+  color: $site-yellow !important;
+  background-color: black;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+}
+.navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
+  color: black !important;
+  background-color: $site-yellow;
+}
+
+.current-menu-item > a {
+  color: black !important;
+  background-color: $site-yellow !important;
+}
+
 
 img.img-fluid {
   width: 150px;
@@ -89,15 +98,18 @@ img.img-fluid {
 
 #wrapper-footer{
   background-color: $site-yellow !important;
-  height: 10em;
-
+  height: 9em;
+  overflow: hidden;
 }
 
 #colophon{
   font-size: 12px;
   text-align: center;
   color: black;
+}
 
+.wp-block-cover p{
+  font-family: Georgia, serif;
 }
 
 .site-info{
@@ -115,5 +127,14 @@ img.img-fluid {
 
 .entry-content {
   color: black;
+  padding-top: 70px;
+}
+
+.bg-primary {
+  background-color: $site-yellow !important;
+}
+
+div#primary {
+  padding: 0;
 }
 //---------------------------------------End hard-coded styles-----------------------------------------

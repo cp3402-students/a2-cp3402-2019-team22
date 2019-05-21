@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                         <p style="text-align:center">[ <a href="https://www.facebook.com/Mycoffeecan/" target = _blank>facebook</a> ]  [ <a href="https://www.instagram.com/thecoffeecan_cafe/?hl=en" target = _blank>instagram</a> ]</p>
 
-						<?php understrap_site_info(); ?>
+						<?php //understrap_site_info(); ?>
 
 
 					</div><!-- .site-info -->

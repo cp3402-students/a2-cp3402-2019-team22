@@ -46,6 +46,12 @@ a#includeslogo {
   padding-left: 150px;
 }
 
+@media only screen and (max-width: 545px) {
+  a#includeslogo {
+    display: none;
+  }
+}
+
 //MENU BAR SMALLER SCREEN
 @media (max-width: map_get($grid-breakpoints,lg)){
   #main-menu{
@@ -53,5 +59,10 @@ a#includeslogo {
   }
   #navbarNavDropdown ul li::after{
     content: none;
+  }
+  a.nav-link {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }

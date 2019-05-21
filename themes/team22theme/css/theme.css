@@ -14144,6 +14144,11 @@ a#includeslogo {
   padding-left: 150px;
 }
 
+@media only screen and (max-width: 545px) {
+  a#includeslogo {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
   #main-menu {
     height: auto;
@@ -14152,12 +14157,22 @@ a#includeslogo {
   #navbarNavDropdown ul li::after {
     content: none;
   }
+
+  a.nav-link {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 div#homepage-page-wrapper .wp-block-cover__inner-container > .has-large-font-size {
   background-color: rgba(255, 255, 255, 0.2);
 }
 div#homepage-page-wrapper .wp-block-cover__inner-container > p:not(.has-large-font-size) {
   color: #fe50a1;
+}
+
+div#homepage-page-wrapper .entry-content {
+  padding-top: 0;
 }
 
 /* These are hard-coded styles that ideally shouldn't be hard-coded.
@@ -14170,12 +14185,6 @@ body {
 
 #main-menu {
   box-shadow: 1px 5px 6px 1px black;
-}
-
-.wp-block-cover {
-  width: 1000px;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 
 .wp-block-separator {
@@ -14208,26 +14217,35 @@ img.img-fluid {
   box-shadow: 0px 0px 10px 0px #252420;
 }
 
-.navbar {
-  background-color: #f8f506 !important;
-  z-index: 9999999;
+@media only screen and (max-width: 1000px) {
+  .site {
+    max-width: inherit;
+  }
 }
-.navbar a {
+.navbar-brand {
+  font-family: "Cooper Black";
   color: #252420 !important;
+<<<<<<< HEAD
   font-family: "Cooper Std", sans-serif;
-}
-.navbar a.nav-link {
-  color: #f8f506 !important;
-  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
-}
-.navbar a.nav-link:hover {
-  color: #252420 !important;
-  background-color: #f8f506 !important;
+=======
+>>>>>>> refs/remotes/origin/master
 }
 
-img {
-  margin-right: -15px;
-  margin-left: -15px;
+.navbar-dark, .navbar-nav, .nav-link {
+  z-index: 9999 !important;
+  color: #f8f506 !important;
+  background-color: black;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+}
+
+.navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
+  color: black !important;
+  background-color: #f8f506;
+}
+
+.current-menu-item > a {
+  color: black !important;
+  background-color: #f8f506 !important;
 }
 
 img.img-fluid {
@@ -14259,13 +14277,18 @@ img.img-fluid {
 
 #wrapper-footer {
   background-color: #f8f506 !important;
-  height: 10em;
+  height: 9em;
+  overflow: hidden;
 }
 
 #colophon {
   font-size: 12px;
   text-align: center;
   color: black;
+}
+
+.wp-block-cover p {
+  font-family: Georgia, serif;
 }
 
 .site-info {
@@ -14283,6 +14306,15 @@ img.img-fluid {
 
 .entry-content {
   color: black;
+  padding-top: 70px;
+}
+
+.bg-primary {
+  background-color: #f8f506 !important;
+}
+
+div#primary {
+  padding: 0;
 }
 
 /*
