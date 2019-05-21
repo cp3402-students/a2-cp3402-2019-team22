@@ -14148,6 +14148,31 @@ a#includeslogo {
   a#includeslogo {
     display: none;
   }
+
+  img.img-fluid {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  a.navbar-brand.custom-logo-link {
+    width: 100%;
+  }
+
+  button.navbar-toggler {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  a.nav-link {
+    position: inherit;
+    transform: translateY(0%);
+    width: 100%;
+  }
 }
 @media (max-width: 992px) {
   #main-menu {
