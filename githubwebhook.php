@@ -1,6 +1,9 @@
 <?php
 echo "<b>Current working directory: </b>" . getcwd();
 
+$output4 = shell_exec("whoami 2>&1");
+echo "<h1>Whoami</h1><pre>" . $output4 . "</pre>"; 
+
 $output3 = shell_exec("sudo git reset --hard origin/master 2>&1");
 echo "<h1>Git reset</h1><pre>" . $output3 . "</pre>"; 
 
