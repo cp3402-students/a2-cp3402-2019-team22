@@ -100,7 +100,7 @@ a#includeslogo {
   }
   .navbar-expand-md .navbar-nav {
     flex-flow: wrap;
-    width: 400px;
+    max-width: 400px;
   }
 }
 

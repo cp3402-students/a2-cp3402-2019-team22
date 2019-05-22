@@ -14199,7 +14199,7 @@ a#includeslogo {
 
   .navbar-expand-md .navbar-nav {
     flex-flow: wrap;
-    width: 400px;
+    max-width: 400px;
   }
 }
 @media (max-width: 768px) {
@@ -14348,6 +14348,11 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div#comments {
   padding-left: 15px;
   padding-right: 15px;
 }
