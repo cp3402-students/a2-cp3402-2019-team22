@@ -3,10 +3,10 @@
 //MENU BAR
 #main-menu{
   background-color: black;
-  position: relative;
-  right: 0px;
-  top: 53px;
-  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  height: max-content;
   li{
     a{
       display: inline-table;
@@ -44,6 +44,14 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
 
 a#includeslogo {
   padding-left: 150px;
+}
+
+.nav-link {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* height: 100%; */
+  width: max-content;
 }
 
 @media only screen and (max-width: 545px) {
@@ -89,5 +97,20 @@ a#includeslogo {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+  }
+  .navbar-expand-md .navbar-nav {
+    flex-flow: wrap;
+    width: 400px;
+  }
+}
+
+@media (max-width: map_get($grid-breakpoints,md)){
+  .navbar-expand-md .navbar-nav {
+    flex-flow: column !important;
+    width: max-content !important;
+  }
+  a.nav-link {
+    transform: translateY(0%);
+    width: 100%;
   }
 }

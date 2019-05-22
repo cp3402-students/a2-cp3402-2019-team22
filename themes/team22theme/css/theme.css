@@ -14106,10 +14106,10 @@ figure.woocommerce-product-gallery__wrapper {
 
 #main-menu {
   background-color: black;
-  position: relative;
-  right: 0px;
-  top: 53px;
-  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  height: max-content;
 }
 #main-menu li a {
   display: inline-table;
@@ -14142,6 +14142,14 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
 
 a#includeslogo {
   padding-left: 150px;
+}
+
+.nav-link {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* height: 100%; */
+  width: max-content;
 }
 
 @media only screen and (max-width: 545px) {
@@ -14187,6 +14195,22 @@ a#includeslogo {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .navbar-expand-md .navbar-nav {
+    flex-flow: wrap;
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    flex-flow: column !important;
+    width: max-content !important;
+  }
+
+  a.nav-link {
+    transform: translateY(0%);
+    width: 100%;
   }
 }
 div#homepage-page-wrapper .wp-block-cover__inner-container > .has-large-font-size {
@@ -14285,27 +14309,6 @@ img.img-fluid {
   width: 150px;
   -webkit-filter: drop-shadow(0px 10px 10px #000);
   filter: drop-shadow(0px 10px 10px #000);
-}
-
-.form-control, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type=text],
-.wpcf7 input[type=search],
-.wpcf7 input[type=url],
-.wpcf7 input[type=tel],
-.wpcf7 input[type=number],
-.wpcf7 input[type=range],
-.wpcf7 input[type=date],
-.wpcf7 input[type=month],
-.wpcf7 input[type=week],
-.wpcf7 input[type=time],
-.wpcf7 input[type=datetime],
-.wpcf7 input[type=datetime-local],
-.wpcf7 input[type=color],
-.wpcf7 input[type=email],
-.wpcf7 input[type=file],
-.wpcf7 input[type=submit],
-.wpcf7 select,
-.wpcf7 textarea {
-  background-color: #3a3a3a;
 }
 
 #wrapper-footer {
