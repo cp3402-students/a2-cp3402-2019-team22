@@ -40,3 +40,18 @@ function register_my_menu() {
     register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
+
+//Footer Image
+function theme_customizer_footer_image($wp_customize) {
+// add a setting
+    $wp_customize->add_setting('site_footer_image');
+// Add a control to upload the hover logo
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'site_footer_image', array(
+        'label' => 'Upload Footer Image',
+        'section' => 'title_tagline', //this is the section where the custom-logo from WordPress is
+        'settings' => 'site_footer_image',
+        'priority' => 8 // show it just below the custom-logo
+    )));
+}
+
+add_action('customize_register', 'theme_customizer_footer_image');

@@ -29,13 +29,12 @@ $container = get_theme_mod('understrap_container_type');
                     <div class="site-info">
                         <div class="wp-block-image">
                             <figure class="aligncenter"><img
-                                        src="http://34.229.102.181/wp-content/uploads/2019/05/coffee.png" alt=""
+                                        src="<?php echo get_theme_mod( 'site_footer_image',"Nothing here" ); ?>" alt=""
                                         class="wp-image-65"/></figure>
                         </div>
 
+
                         <?php wp_nav_menu(array('theme_location' => 'footer-menu')); ?>
-
-
 
                         <?php //understrap_site_info(); ?>
 
