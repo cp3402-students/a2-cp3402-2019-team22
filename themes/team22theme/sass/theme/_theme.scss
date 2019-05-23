@@ -120,7 +120,7 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
-  & :not(.wp-block-cover){
+  & > :not(.wp-block-cover){
     padding-left: $sitePagePadding;
     padding-right: $sitePagePadding;
     list-style-position: inside;
