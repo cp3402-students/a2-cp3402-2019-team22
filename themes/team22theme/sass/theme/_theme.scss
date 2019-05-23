@@ -120,10 +120,19 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
-  & > :not(.wp-block-cover){
+  padding-left: 0;
+  padding-right: 0;
+  list-style-position: inside;
+  &>:not(.wp-block-cover):not(.alignnormal):not(.wp-block-image){
     padding-left: $sitePagePadding;
     padding-right: $sitePagePadding;
-    list-style-position: inside;
+    //margin-left: -$sitePagePadding;
+    //margin-right: -$sitePagePadding;
+
+  }
+  &>.wp-block-ninja-forms-form{
+    padding-left: $sitePagePadding;
+    padding-right: $sitePagePadding;
   }
 }
 

@@ -14348,11 +14348,17 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
+  padding-left: 0;
+  padding-right: 0;
+  list-style-position: inside;
 }
-.entry-content > :not(.wp-block-cover) {
+.entry-content > :not(.wp-block-cover):not(.alignnormal):not(.wp-block-image) {
   padding-left: 15px;
   padding-right: 15px;
-  list-style-position: inside;
+}
+.entry-content > .wp-block-ninja-forms-form {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 div#comments {
