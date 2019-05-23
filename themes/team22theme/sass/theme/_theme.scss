@@ -63,18 +63,18 @@ img.img-fluid {
 
 .navbar-dark, .navbar-nav, .nav-link {
   z-index: 9999 !important;
-  color: $site-yellow !important;
+  //color: $site-yellow !important;
   background-color: black;
   font-family: $site-navbar-font;
 }
 .navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
   color: black !important;
-  background-color: $site-yellow;
+  //background-color: $site-yellow;
 }
 
 .current-menu-item > a {
   color: black !important;
-  background-color: $site-yellow !important;
+  //background-color: $site-yellow !important;
 }
 
 
@@ -143,7 +143,7 @@ div#comments {
 }
 
 .bg-primary {
-  background-color: $site-yellow !important;
+  //background-color: $site-yellow !important;
 }
 
 div#primary {

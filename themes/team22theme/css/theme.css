@@ -14123,7 +14123,6 @@ figure.woocommerce-product-gallery__wrapper {
 
 #navbarNavDropdown ul li::after {
   content: "|";
-  color: #f8f506;
 }
 #navbarNavDropdown ul li:last-child::after {
   content: "";
@@ -14237,7 +14236,6 @@ div#homepage-page-wrapper .entry-content {
   font-style: normal;
 }
 #wrapper-footer {
-  background-color: #f8f506 !important;
   overflow: hidden;
 }
 
@@ -14309,19 +14307,16 @@ img.img-fluid {
 
 .navbar-dark, .navbar-nav, .nav-link {
   z-index: 9999 !important;
-  color: #f8f506 !important;
   background-color: black;
   font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
 }
 
 .navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
   color: black !important;
-  background-color: #f8f506;
 }
 
 .current-menu-item > a {
   color: black !important;
-  background-color: #f8f506 !important;
 }
 
 img.img-fluid {
@@ -14383,10 +14378,6 @@ div#comments {
 #homepage-page-wrapper .entry-content {
   padding-left: 0;
   padding-right: 0;
-}
-
-.bg-primary {
-  background-color: #f8f506 !important;
 }
 
 div#primary {

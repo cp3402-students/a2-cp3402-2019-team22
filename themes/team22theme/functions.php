@@ -42,7 +42,7 @@ function register_my_menu() {
 add_action( 'init', 'register_my_menu' );
 
 //Footer Image
-function theme_customizer_footer_image($wp_customize) {
+function theme_customizer_register($wp_customize) {
 // add a setting
     $wp_customize->add_setting('site_footer_image');
 // Add a control to upload the hover logo
@@ -52,6 +52,57 @@ function theme_customizer_footer_image($wp_customize) {
         'settings' => 'site_footer_image',
         'priority' => 8 // show it just below the custom-logo
     )));
+
+    //Main colour
+    $wp_customize->add_setting('site_main_color',array(
+        'default' => '#FF0000',
+        'type' => 'theme_mod'
+    ));
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize,'site_main_color',array(
+        'label' => 'Main site colour',
+        'section' => 'colors',
+        'settings' => 'site_main_color',
+        'priority' => 8,
+    )));
 }
 
-add_action('customize_register', 'theme_customizer_footer_image');
+add_action('customize_register', 'theme_customizer_register');
+
+function theme_get_customizer_css() {
+    ob_start();
+
+    $site_main_color = get_theme_mod( 'site_main_color', '' );
+    if ( ! empty( $site_main_color ) ) {
+        ?>
+        .bg-primary {background-color: <?php echo $site_main_color; ?> !important;
+        }
+        #wrapper-footer {
+        background-color: <?php echo $site_main_color; ?> !important;
+        }
+        .current-menu-item > a {
+            background-color: <?php echo $site_main_color; ?> !important;
+        }
+        .navbar-dark:hover, .navbar-nav:hover, .nav-link:hover {
+            background-color: <?php echo $site_main_color; ?>;
+        }
+        .navbar-dark, .navbar-nav, .nav-link {
+            color: <?php echo $site_main_color; ?> !important;
+        }
+        #navbarNavDropdown ul li::after{
+            color: <?php echo $site_main_color; ?>;
+        }
+        <?php
+    }
+
+    $css = ob_get_clean();
+    return $css;
+}
+
+function theme_enqueue_styles() {
+    wp_enqueue_style( 'theme-styles', get_stylesheet_uri() ); // This is where you enqueue your theme's main stylesheet
+    $custom_css = theme_get_customizer_css();
+    wp_add_inline_style( 'theme-styles', $custom_css );
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+
