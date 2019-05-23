@@ -120,8 +120,11 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
-  padding-left: $sitePagePadding;
-  padding-right: $sitePagePadding;
+  & :not(.wp-block-cover){
+    padding-left: $sitePagePadding;
+    padding-right: $sitePagePadding;
+    list-style-position: inside;
+  }
 }
 
 div#comments {

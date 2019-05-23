@@ -14348,8 +14348,11 @@ img.img-fluid {
 .entry-content {
   color: black;
   padding-top: 70px;
+}
+.entry-content :not(.wp-block-cover) {
   padding-left: 15px;
   padding-right: 15px;
+  list-style-position: inside;
 }
 
 div#comments {
