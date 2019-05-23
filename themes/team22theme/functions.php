@@ -34,3 +34,9 @@ foreach ( $understrap_includes as $file ) {
 	}
 	require_once $filepath;
 }
+
+//Footer menu
+function register_my_menu() {
+    register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'register_my_menu' );

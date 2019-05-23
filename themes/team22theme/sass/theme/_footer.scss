@@ -1,0 +1,21 @@
+#wrapper-footer{
+  background-color: $site-yellow !important;
+  //height: 9em;
+  overflow: hidden;
+}
+
+.site-footer{
+  ul{
+    padding: 0;
+    list-style: none;
+  }
+  .menu > li{
+    display: inline-block;
+    ::before{
+      content: "[ ";
+    }
+    ::after{
+      content: " ]";
+    }
+  }
+}
