@@ -14259,7 +14259,7 @@ i.e we should be able to change things like colours from withing the WordPress t
 body {
   background: #ffffcf !important;
   color: #ffffcf;
-  font-family: "Comic Sans MS" !important;
+  font-family: "Comic Sans MS", serif;
 }
 
 .navbar-dark .navbar-toggler-icon {
